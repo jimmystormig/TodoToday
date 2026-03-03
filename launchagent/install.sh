@@ -36,5 +36,5 @@ sed \
 echo "Loading agent..."
 launchctl load "$DEST"
 
-echo "Done. The briefing will run daily at 7:00 AM."
+echo "Done. The briefing will run daily at 7:00 AM (checks every 15 min after wake)."
 echo "To test now: launchctl start com.todotoday.briefing"
